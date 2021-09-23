@@ -43,7 +43,8 @@ export class Consts {
 		CALLS: 5,
 		LOG: 6,
 		LINKS: 7,
-		NOTES: 8
+		NOTES: 8,
+		VIDEOS: 9
 	}
 
 	public STATUS = {

@@ -44,6 +44,10 @@ export class AddPopover {
     this.addWidget(this.consts.WIDGET_TYPES.NOTES);
   }
 
+  addVideosWidget() {
+    this.addWidget(this.consts.WIDGET_TYPES.VIDEOS);
+  }
+
   isWidgetActive(widgetId) {
     if (this.addedWidgets) {
       return this.addedWidgets.includes(widgetId);

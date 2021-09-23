@@ -33,3 +33,7 @@ $RECYCLE.BIN/
 Thumbs.db
 UserInterfaceState.xcuserstate
 /package-lock.json
+**/*.js
+**/*.map
+src/config/app.config.dev.ts
+src/config/app.config.prod.ts
